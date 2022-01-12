@@ -108,7 +108,7 @@ li {
     height: 170px;
     text-align: center;
     padding: 10px;
-    background-color: black;
+    background-image: linear-gradient(to top, rgb(74, 74, 74), rgb(161, 161, 161));
     color: white;
     display: flex;
     flex-wrap: wrap;
@@ -130,11 +130,21 @@ form {
 }
 
 button {
-    width: 70px;
+    width: 100px;
+    letter-spacing: 3px;
+}
+
+.button-form {
+    display: flex;
+    justify-content: center;
 }
 
 .form-container {
     margin-top: 30px;
+}
+
+input {
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.046);
 }
 
 footer {
