@@ -206,6 +206,14 @@ footer ul li a:hover {
         height: 550px;
     }
 
+    .know h3 {
+        margin-top: 30px;
+    }
+
+    .first-li {
+        margin-top: 30px;
+    }
+
     .personal-item {
         margin-bottom: 30px;
     }
