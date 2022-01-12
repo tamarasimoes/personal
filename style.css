@@ -65,11 +65,24 @@ nav a {
 .know {
     padding: 0px 30px;
     display: grid;
-    height: 500px;
+    height: 400px;
 }
 
 #exampleFormControlTextarea1 {
     resize: none;
+}
+
+.personal-container {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.personal-item img {
+    border-radius: 100px;
+    box-shadow: 5px 5px 5px rgba(193, 193, 193, 0.156);
 }
 
 .features {
@@ -178,7 +191,7 @@ footer ul li a:hover {
     .features {
         display:flex;
         flex-wrap: wrap;
-        height: 800px;
+        height: 900px;
     }
 
     .features li {
@@ -187,5 +200,13 @@ footer ul li a:hover {
 
     .home a {
         margin: 5px;
+    }
+
+    .know {
+        height: 550px;
+    }
+
+    .personal-item {
+        margin-bottom: 30px;
     }
 }
