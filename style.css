@@ -34,10 +34,12 @@ nav a {
 .home {
     background-color: black;
     color: white;
+    padding: 0px 30px;
 }
 
 .know {
     padding: 0px 30px;
+    display: grid;
 }
 
 .home a {
@@ -61,6 +63,23 @@ li {
     margin-right: 20px;
 }
 
+.grid-container {
+    display: flex;
+    margin: 50px 0px;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.grid-item {
+    border: 0.5px solid black;
+    border-radius: 30px;
+    margin-right: 20px;
+    width: 200px;
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(211, 211, 211);
+}
 .contact {
     text-align: center;
     padding: 50px 0px;
