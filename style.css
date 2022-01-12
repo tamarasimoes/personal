@@ -26,11 +26,22 @@ nav a {
     font-weight: 100;
 }
 
+.home a {
+    background-color: white;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+.home h1 {
+    margin-left: -40px;
+}
+
 .home, .know {
     text-align: center;
     height:300px;
     display: flex;
-    align-items: center;
     flex-wrap: wrap;
     justify-content: center;
     align-content: center;
