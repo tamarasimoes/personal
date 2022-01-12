@@ -5,13 +5,14 @@
 header {
     display: flex;
     flex-wrap: nowrap;
-    padding: 20px 0px;
+    padding: 20px 10px;
     border-bottom: 1px black solid;
+    align-items: center;
 }
 
 nav {
     display: flex;
-    width: 700px;
+    width: 1200px;
     justify-content: flex-end;
 }
 
