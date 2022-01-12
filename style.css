@@ -1,3 +1,89 @@
 * {
     font-family: 'Raleway', sans-serif;
 }
+
+header {
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 20px 0px;
+    border-bottom: 1px black solid;
+}
+
+nav {
+    display: flex;
+    width: 700px;
+    justify-content: flex-end;
+}
+
+nav a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.home, .know {
+    text-align: center;
+    height:300px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.home {
+    background-color: black;
+    color: white;
+}
+
+.know {
+    padding: 0px 30px;
+}
+
+.home a {
+    text-decoration: none;
+    color:black;
+    font-weight: 400;
+    margin-right: 30px;
+}
+
+.features {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(224, 224, 224);
+    height: 250px;
+}
+
+li {
+    list-style: none;
+    margin-right: 20px;
+}
+
+.contact {
+    text-align: center;
+    padding: 50px 0px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    height: 100px;
+    padding: 20px 0px;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    position: absolute;
+}
+
+footer ul {
+    display: flex;
+    justify-content: center;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
