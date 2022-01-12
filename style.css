@@ -99,6 +99,19 @@ li {
     margin: 0px 40px;
 }
 
+.features a {
+    background-color: black;
+    color: rgb(224, 224, 224);
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+
+.features a:hover {
+    background-color: rgb(198, 198, 198);
+    color: black;
+}
+
 .strong {
     font-weight: 500;
 }
@@ -154,6 +167,11 @@ button {
 
 .form-container {
     margin-top: 30px;
+}
+
+.portfolio {
+    margin-bottom: -20px;
+    margin-left: 20px;
 }
 
 input {
