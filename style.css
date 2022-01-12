@@ -31,7 +31,11 @@ nav a {
     text-decoration: none;
     border-radius: 15px;
     width: 100px;
-    margin-top: 30px;
+    margin: 30px 10px;
+    color:black;
+    font-weight: 400;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .home a:hover {
@@ -40,13 +44,8 @@ nav a {
     text-decoration: none;
 }
 
-.home h1 {
-    margin-left: -40px;
-}
-
 .home, .know {
     text-align: center;
-    height:300px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -57,19 +56,17 @@ nav a {
     background-color: black;
     color: white;
     padding: 100px 30px;
-    height: 400px;
+    height: 700px;
 }
 
 .know {
     padding: 0px 30px;
     display: grid;
+    height: 500px;
 }
 
-.home a {
-    text-decoration: none;
-    color:black;
-    font-weight: 400;
-    margin-right: 30px;
+#exampleFormControlTextarea1 {
+    resize: none;
 }
 
 .features {
@@ -78,7 +75,7 @@ nav a {
     align-items: center;
     text-align: center;
     background-color: rgb(224, 224, 224);
-    height: 250px;
+    height: 400px;
 }
 
 li {
@@ -112,9 +109,25 @@ li {
     align-content: center;
 }
 
-.contact {
+.contact h3 {
     text-align: center;
     padding: 50px 0px;
+    background-color: rgb(224, 224, 224);
+    margin-bottom: -50px;
+
+}
+
+form {
+    background-color: rgb(224, 224, 224);
+    padding: 30px 60px;
+}
+
+button {
+    width: 70px;
+}
+
+.form-container {
+    margin-top: 30px;
 }
 
 footer {
