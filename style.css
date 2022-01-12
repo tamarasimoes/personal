@@ -5,7 +5,7 @@
 header {
     display: flex;
     flex-wrap: nowrap;
-    padding: 20px 10px;
+    padding: 20px;
     border-bottom: 1px black solid;
     align-items: center;
 }
@@ -31,11 +31,13 @@ nav a {
     text-decoration: none;
     border-radius: 15px;
     width: 100px;
+    height: 30px;
     margin: 30px 10px;
     color:black;
     font-weight: 400;
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
 }
 
 .home a:hover {
@@ -53,7 +55,7 @@ nav a {
 }
 
 .home {
-    background-color: black;
+    background-image: linear-gradient(to top, black, rgb(54, 54, 54));
     color: white;
     padding: 100px 30px;
     height: 700px;
@@ -156,5 +158,15 @@ footer ul li a:hover {
     color: rgba(255, 255, 255, 0.459);
 }
 
+@media screen and (max-width: 600px) {
 
-animate__fadeInUp
+    .features {
+        display:flex;
+        flex-wrap: wrap;
+        height: 600px;
+    }
+
+    .features li {
+        width: 500px;
+    }
+}
