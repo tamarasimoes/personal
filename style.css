@@ -82,7 +82,11 @@ nav a {
 
 li {
     list-style: none;
-    margin-right: 20px;
+    margin: 0px 40px;
+}
+
+.strong {
+    font-weight: 500;
 }
 
 .grid-container {
@@ -163,7 +167,7 @@ footer ul li a:hover {
     .features {
         display:flex;
         flex-wrap: wrap;
-        height: 600px;
+        height: 800px;
     }
 
     .features li {
