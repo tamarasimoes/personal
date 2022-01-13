@@ -18,13 +18,13 @@ header {
     z-index: 99;
 }
 
-nav {
+.nav-desktop {
     display: flex;
     width: 1200px;
     justify-content: flex-end;
 }
 
-nav a {
+.nav-desktop a {
     margin-right: 10px;
     font-size: 12px;
     text-decoration: none;
@@ -251,4 +251,39 @@ footer ul li a:hover {
         margin-bottom: 30px;
     }
 
+}
+
+@media screen and (max-width: 600px) {
+
+    .nav-desktop {
+        display:none;
+    }
+
+    .dropdown {
+        display: flex;
+        width: 700px;
+        justify-content: end;
+    }
+
+    .mainmenubtn {
+        border: none;
+        width: 50px;
+        height: 50px;
+    }
+
+    .dropdown-child {
+        display: none;
+    }
+
+    .dropdown-child a {
+        font-size: 12px;
+        text-decoration: none;
+        color: black;
+        border-bottom: 0.5px solid black;
+        margin-bottom: 5px;
+    }
+
+    .dropdown:hover .dropdown-child {
+        display:grid;
+    }
 }
