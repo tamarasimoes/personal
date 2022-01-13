@@ -73,7 +73,7 @@ header {
 .know {
     padding: 0px 30px;
     display: grid;
-    height: 400px;
+    height: 40px;
 }
 
 #exampleFormControlTextarea1 {
@@ -234,7 +234,7 @@ footer ul li a:hover {
     }
 
     .know {
-        height: 550px;
+        height: 700px;
     }
 
     .know h3 {
@@ -257,8 +257,22 @@ footer ul li a:hover {
 
 @media screen and (max-width: 600px) {
 
+    .features .second-li {
+        margin-top: 50px;
+    }
+
+    .line {
+        border: 0.01px solid black;
+        width: 150px;
+        margin: 0px auto;
+    }
+
     .nav-desktop {
         display:none;
+    }
+
+    .features {
+        height: 1100px;
     }
 
     .dropdown {
@@ -296,11 +310,19 @@ footer ul li a:hover {
     .dropdown {
         display: none;
     }
+
+    .know {
+        height: 400px;
+    }
 }
 
 @media screen and (max-width: 360px) {
 
     .features {
+        height: 1100px;
+    }
+
+    .know {
         height: 1100px;
     }
 
@@ -313,5 +335,4 @@ footer ul li a:hover {
         width: 150px;
         margin: 0px auto;
     }
-}
 }
