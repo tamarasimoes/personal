@@ -39,14 +39,10 @@ header {
     background-color: white;
     text-decoration: none;
     border-radius: 15px;
-    width: 100px;
     height: 30px;
-    margin: 30px 10px;
     color:black;
     font-weight: 400;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+    padding: 5px 10px;
 }
 
 .home a:hover {
@@ -63,13 +59,15 @@ header {
     align-content: center;
 }
 
+.home-items {
+    width: 1000px;
+}
+
 .home {
     background-image: linear-gradient(to top, black, rgb(54, 54, 54));
     color: white;
     padding: 100px 30px;
     height: 700px;
-    display: flex;
-    flex-wrap: wrap;
 }
 
 .know {
@@ -298,4 +296,22 @@ footer ul li a:hover {
     .dropdown {
         display: none;
     }
+}
+
+@media screen and (max-width: 360px) {
+
+    .features {
+        height: 1100px;
+    }
+
+    .features .second-li {
+        margin-top: 50px;
+    }
+
+    .line {
+        border: 0.01px solid black;
+        width: 150px;
+        margin: 0px auto;
+    }
+}
 }
