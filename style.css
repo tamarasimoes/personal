@@ -251,6 +251,10 @@ footer ul li a:hover {
         margin-bottom: 30px;
     }
 
+    .dropdown {
+        display: none;
+    }
+
 }
 
 @media screen and (max-width: 600px) {
@@ -273,6 +277,7 @@ footer ul li a:hover {
 
     .dropdown-child {
         display: none;
+        margin-left: 10px;
     }
 
     .dropdown-child a {
@@ -285,5 +290,12 @@ footer ul li a:hover {
 
     .dropdown:hover .dropdown-child {
         display:grid;
+    }
+}
+
+@media screen and (min-width: 900px) {
+
+    .dropdown {
+        display: none;
     }
 }
