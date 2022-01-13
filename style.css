@@ -10,6 +10,12 @@ header {
     padding: 20px;
     border-bottom: 1px black solid;
     align-items: center;
+    position: -webkit-sticky; /* Necessário para funcionar no Safari */
+    position: sticky;
+    top: 0;
+    background-color: white;
+    overflow: hidden; /* Tudo que vier na frente vai ficar oculto */
+    z-index: 99;
 }
 
 nav {
@@ -131,6 +137,7 @@ li {
     justify-content: center;
     align-content: center;
     flex-wrap: wrap;
+    overflow:hidden;
 }
 
 .grid-item {
@@ -204,8 +211,8 @@ footer ul {
 }
 
 footer ul li a {
-    text-decoration: none;
     color: white;
+    margin-left: -20px;
 }
 
 footer ul li a:hover {
