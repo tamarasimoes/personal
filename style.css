@@ -264,7 +264,7 @@ footer ul li a:hover {
     .dropdown {
         display: flex;
         width: 700px;
-        justify-content: end;
+        justify-content: flex-end;
     }
 
     .mainmenubtn {
